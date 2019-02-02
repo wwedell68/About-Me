@@ -47,6 +47,9 @@ if (travel === 'yes' || travel === 'y') {
   alert('Sorry! But I actually have left the country');
 }
 
+//  for(var i=0; i<4; i ++) { - try using something like this for the counter//
 
 var favNumber = prompt('What is my favorite number?');
 console.log(favNumber);
+
+// if / else statement here
