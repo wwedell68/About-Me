@@ -46,3 +46,7 @@ if (travel === 'yes' || travel === 'y') {
 } else {
   alert('Sorry! But I actually have left the country');
 }
+
+
+var favNumber = prompt('What is my favorite number?');
+console.log(favNumber);
