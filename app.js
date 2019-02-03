@@ -53,3 +53,17 @@ var favNumber = prompt('What is my favorite number?');
 console.log(favNumber);
 
 // if / else statement here
+
+for(var i=0; i<5; i++) {
+  var total = prompt('What is my favorite number? I\'ll give you 5 chances!');
+  console.log ('What is my favoite number? I\'ll give you 5 chances!',total);
+
+  if (total ==='17') {
+    alert('Correct, you got the right answer');
+  } else if(total >'17') {
+    alert('Too high, try again!');
+  }else if (total <'17') {
+    alert('Too low, try again!');
+  }
+}
+alert('The Correct answer is 17');
