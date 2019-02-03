@@ -67,3 +67,20 @@ for(var i=0; i<5; i++) {
   }
 }
 alert('The Correct answer is 17');
+
+
+var movies = prompt('What is my favorite movie? The Sandlot, Terminator, Predator, We Were Soldiers, Remember the Titans?').toUpperCase();
+console.log ('What is my favorite movie?',movies);
+
+if(movies === 'We Were Soldiers'|| movies=== 'We Were Soldiers'|| movies==='We Were Soldiers') {
+  alert('Correct');
+} else if(movies === 'The Sandlot' || movies=== 'The Sandlot'|| movies==='The Sandlot') {
+  alert('Incorrect');
+} else if(movies === 'Terminator'|| movies==='Terminator'||movies==='Terminator') {
+  alert('Incorrect');
+} else if(movies === 'Predator'|| movies==='Predator'||movies==='Predator') {
+  alert('Incorrect');
+} else if(movies === 'Remember the Titans'|| movies==='Remember the Titans'|| movies==='Remember the Titans') {
+  alert('Incorrect');
+}
+alert('The Correct answer is We Were Soldiers');
